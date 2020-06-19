@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    width: 100%;
+    background-color:rgb(44, 43, 43);
+    height: 50px;
+    float: left;
+}
+
+header .inner p{
+    padding-left: 5cm;
+    color: lightseegreen;
+    font-size: 25px;
+    line-height: 2px;
+    font-family: STKaiTi;
+    font-style: italic;
+    float: left;
+}
+
+aside{
+    margin-top: 100px;
+    width: 10%;
+    float: left;
+    position: fixed;
+}
+
+div.side{
+    border-color: rgb(134, 135, 133);
+    border-width: 5px;
+    border-style: solid;
+}
+
+aside .side h2{
+
+    padding-left: 50px;
+    background-color:rgb(135, 150, 160);
+}
+
+content{
+    margin-top: 60px;
+    width: 90%;
+    float: right;
+background-color:rgb(247, 243, 29);
+background-image:url('../img/bg.jpg')
+
+   }
+
+content div.cont1 div#cont1p{
+    float: right;
+    margin-right: 150px;
+}
+
+content div.cont1 div#cont1p p{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: rgb(83, 67, 133);
+    font-size: 25px;
+    line-height: 50px;
+    font-family:  STKaiTi;
+}
+
+#cont2i{
+    float: right;
+    margin-bottom: 20px;
+}
+
+content div.cont2 div#cont2p p{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: rgb(83, 67, 133);
+    font-size: 25px;
+    line-height: 50px;
+    font-family:  STKaiTi;
+}
+
+content div.cont3 div#cont3p{
+    float: right;
+    margin-right: 150px;
+}
+
+content div.cont3 div#cont3p p{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: rgb(83, 67, 133);
+    font-size: 25px;
+    line-height: 50px;
+    font-family:  STKaiTi;
+}
+
+
+footer{
+    width: 100%;
+    background-color:rgb(44, 43, 43);
+    height: 30px;
+    float: left;
+}
+
+footer .inner p{
+    text-align: center;
+    color: cornsilk;
+    font-size: 15px;
+    line-height: 2px;
+    font-family: sans-serif;
+    font-style: italic;
+}
